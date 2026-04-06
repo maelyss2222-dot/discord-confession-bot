@@ -48,7 +48,7 @@ class ConfessionModal(discord.ui.Modal, title="Envoyer une confession"):
         confession_channel = bot.get_channel(CONFESSION_CHANNEL_ID)
         log_channel = bot.get_channel(LOG_CHANNEL_ID)
 
-        # Embed confession rose
+        # Embed confession
         embed_conf = discord.Embed(
             title=f"💌 Confession #{confession_count}",
             description=f"```{self.confession.value}```",
