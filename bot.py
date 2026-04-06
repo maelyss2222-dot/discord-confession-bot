@@ -108,7 +108,6 @@ async def confessionpanel(ctx):
 # ===== READY =====
 @bot.event
 async def on_ready():
-    bot.add_view(ConfessionView())
     print(f"{bot.user} est connecté !")
 
 # ===== RUN =====
